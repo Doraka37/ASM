@@ -1,4 +1,4 @@
-myEcho(str) :
+char *myEcho(char* str) :
 
 Réaliser une fonction qui retourne la string envoyer en paramètre
 
