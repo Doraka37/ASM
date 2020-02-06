@@ -1,0 +1,5 @@
+myEcho(str) :
+
+Réaliser une fonction qui retourne la string envoyer en paramètre
+
+Utilisez le main fournis pour tester votre programme
