@@ -1,0 +1,25 @@
+Mov R1, R2 : copie le contenue du registre R2 vers le registre R1
+
+Xor R1, R2 : Effectue une opération XOR sde R1 et R2 et stock le résultat dans R1
+
+Cmp R1, R2 : compare le contenue de R1 à R2 (R1 – R2)
+
+Jmp label: Se déplace à l’instruction ‘label’
+
+Je label: Jump to the instruction ‘label’ si dans le cmp le précedent R1 = R2
+
+Jne label: Jump to the instruction ‘label’ si dans le cmp le précedent R1 != R2
+
+Jl label: Jump to the instruction ‘label’ si dans le cmp le précedent R1 < R2
+
+Jg label: Jump to the instruction ‘label’ si dans le cmp le précedent R1 > R2
+
+Jle label Jump to the instruction ‘label’ si dans le cmp le précedent R1 <= R2
+
+Add R1, R2: additionne le contenu de R1 et R2 et le stock dans R1
+
+Sub R1, R2: soustrait le contenur de R2 à R2 et stock le resultat dans R1
+
+Inc R1: Incrémente le byte sur lequel pointe le registre
+
+Dec R1: Incrémente le byte sur lequel pointe le registre 

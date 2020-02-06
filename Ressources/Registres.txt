@@ -1,0 +1,23 @@
+rax registre général, contient la valeur de retour des fonctions
+
+rbx registre général
+
+rcx registre général
+
+rdx registre général
+
+rsi registre général, Deuxième argument du programme/fonction
+
+rdi registre général, Premier argument du programme/fonction
+
+rsp registre général, A ne pas utiliser sauf pour l’initialisation
+
+rbp registre général, A ne pas utiliser sauf pour l’initialisation
+
+r8 registre général
+
+r9 registre général
+
+. . .
+
+r15 registre général 
