@@ -1,19 +1,19 @@
 #include <stdio.h>
 #include <string.h>
 
-int MyStrlen(char *str);
+Int CountCara(char *str, char cara);
 
 int main() {
 
-  if (MyStrlen("Hello") != 5)
+  if (CountCara("Hello", 'l') != 2)
     printf("Error on simple test\n");
   else
     printf("Test1 passed\n");
-  if (MyStrlen("") != 0)
+  if (CountCara("", 'l') != 0)
     printf("Error on empty string test\n");
   else
     printf("Test2 passed\n");
-  if (MyStrlen("Hello, world") != 12)
+  if (CountCara("HELLO, world", 'l') != 3)
     printf("Error on multiple word test\n");
   else
     printf("Test3 passed\n");

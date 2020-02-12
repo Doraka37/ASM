@@ -1,0 +1,3 @@
+Char *RevStr(char *str)
+
+Retourner la chaine de caractères passer en paramètre inverse

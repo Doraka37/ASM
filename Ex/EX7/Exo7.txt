@@ -1,0 +1,3 @@
+ Int CountCara(char *str, char cara)
+
+ Renvoyer le nombre d’occurrence du caractère ‘cara’ (case independant) dans la chaine de caractères.

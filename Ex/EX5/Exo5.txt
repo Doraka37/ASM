@@ -1,0 +1,3 @@
+AbsSubb(nb1, nb2)
+
+Retourner la valeur absolue du résultat de la soustraction des 2 nombres envoyer en paramètre. (nb1 – nb2).

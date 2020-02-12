@@ -1,0 +1,3 @@
+int Add(int nb1, int nb2)
+
+Retourner le résultat de l’addition des 2 nombres envoyer en paramètre.

@@ -1,0 +1,3 @@
+Char *StrToUpper(char *str)
+
+Passer la chaine de caractères passé en paramètre en majuscule

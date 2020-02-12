@@ -1,0 +1,5 @@
+char *Cmpsize(char *str1, char *str2, int flag)
+
+Renvoie la chaine de caractères la plus grande si flag est égale à 0.
+Renvoie la chaine de caractères lap plus petite si flag est égale à 1.
+Renvoie null si les chaines ont la meme taille.

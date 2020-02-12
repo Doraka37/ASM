@@ -1,19 +1,19 @@
 #include <stdio.h>
 #include <string.h>
 
-int MyStrlen(char *str);
+Int FindLower(char *str);
 
 int main() {
 
-  if (MyStrlen("Hello") != 5)
+  if (FindLower("Hello") != 1)
     printf("Error on simple test\n");
   else
     printf("Test1 passed\n");
-  if (MyStrlen("") != 0)
+  if (FindLower("") != -1)
     printf("Error on empty string test\n");
   else
     printf("Test2 passed\n");
-  if (MyStrlen("Hello, world") != 12)
+  if (FindLower("HELLO, world") != 7)
     printf("Error on multiple word test\n");
   else
     printf("Test3 passed\n");

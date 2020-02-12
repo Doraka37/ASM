@@ -1,0 +1,4 @@
+Int Fibonacci(int n)
+
+Retourner le résultat n de la suite de Fibonacci
+Retourne -1 si erreur

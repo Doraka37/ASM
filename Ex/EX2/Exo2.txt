@@ -1,3 +1,3 @@
-int Add(int nb1, int nb2)
+Int Strlen(char *str)
 
-Retourner le résultat de l’addition des 2 nombres envoyer en paramètre.
+Réaliser une fonction qui retourne la taille de la chaine de caractères passer en paramètre.

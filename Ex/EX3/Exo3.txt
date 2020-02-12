@@ -1,0 +1,5 @@
+Char *Cut(char *str, int n)
+
+Coupe la chaine de caractères à partir de n et retourne le résultat
+retourn null si rien a retourné
+ex : Cut(“hello world”, 5) retourne “world”.
