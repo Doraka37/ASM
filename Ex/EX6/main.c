@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-Int FindLower(char *str);
+int FindLower(char *str);
 
 int main() {
 

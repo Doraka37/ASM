@@ -9,11 +9,11 @@ int main() {
     printf("Error on simple test\n");
   else
     printf("Test1 passed\n");
-  if (AbsSubb(-2, 4) != 6)
+  if (AbsSubb(2, 4) != 2)
     printf("Error on negative result test\n");
   else
     printf("Test2 passed\n");
-  if (AbsSubb(0, -4) != 4)
+  if (AbsSubb(0, 4) != 4)
     printf("Error on add 0 test1\n");
   else
     printf("Test3 passed\n");

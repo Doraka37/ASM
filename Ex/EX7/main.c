@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-Int CountCara(char *str, char cara);
+int CountCara(char *str, char cara);
 
 int main() {
 

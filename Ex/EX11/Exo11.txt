@@ -1,4 +1,5 @@
 Int Litllest(char *str)
 
-Retourner le plus petit chiffre dans la suite de nombre passer en paramètre.
+Retourner le plus petit nombre dans la suite de nombre passer en paramètre.
 Les nombres sont séparés par ‘:’ ex: “34:45:67:4:12”.
+Retourne null si erreur

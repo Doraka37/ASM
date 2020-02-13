@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-Int Modulo(int nb1, int nb2);
+int Modulo(int nb1, int nb2);
 
 int main() {
 
@@ -17,12 +17,8 @@ int main() {
     printf("Error simple test3\n");
   else
     printf("Test3 passed\n");
-  if (Modulo(-19, 3) != -1)
-    printf("Error on negative test1\n");
-  else
-    printf("Test4 passed\n");
-  if (Modulo(0, 0) != NULL)
+  if (Modulo(0, 0) != -1)
     printf("Error on full 0 test\n");
   else
-    printf("Test5 passed\n");
+    printf("Test4 passed\n");
 }

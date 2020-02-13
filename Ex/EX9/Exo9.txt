@@ -1,3 +1,4 @@
 Int Modulo(int nb1, int nb2)
 
-Renvoyer le résultat de nb1 % nb2. (vous devez prendre en compte les modulo négatifs)
+Renvoyer le résultat de nb1 % nb2.
+bonus : gerer les % negatifs

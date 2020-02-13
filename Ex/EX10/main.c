@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-Int Fibonacci(int n);
+int Fibonacci(int n);
 
 int main() {
 
@@ -25,12 +25,8 @@ int main() {
     printf("Error on simple test5\n");
   else
     printf("Test5 passed\n");
-  if (Fibonacci(0) != -1)
+  if (Fibonacci(0) != 0)
     printf("Error on error test\n");
   else
     printf("Test6 passed\n");
-  if (Fibonacci(-1) != -1)
-    printf("Error on error test\n");
-  else
-    printf("Test7 passed\n");
 }

@@ -1,3 +1,4 @@
 Int FindLower(char *str)
 
-Retourne la position de la première lettre en minuscule dans la chaine de caractères, retourne –1 si il n’y a pas de lettre minuscule.
+Retourne la position de la première lettre en minuscule dans la chaine de caractères,
+retourne –1 si il n’y a pas de lettre minuscule.
