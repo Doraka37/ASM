@@ -1,0 +1,3 @@
+nasm -f elf64 file.asm
+
+Puis compiler le main.c comme un fichier c
